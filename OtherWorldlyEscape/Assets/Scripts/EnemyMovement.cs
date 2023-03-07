@@ -19,6 +19,6 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Enemy.SetDestination(Player.transform.position);
+        Enemy.SetDestination(Player.transform.position); // setting the goal for the enemy to chase aka player
     }
 }
