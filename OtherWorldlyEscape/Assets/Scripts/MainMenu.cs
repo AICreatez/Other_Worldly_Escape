@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject levelPicker;
+    public GameObject levelMenu;
+    public GameObject mainMenu;
     
     public void PlayFirstLevel()
     {
@@ -19,11 +20,13 @@ public class MainMenu : MonoBehaviour
 
     public void ShowLevels()
     {
-        levelPicker.SetActive(true);
+        levelMenu.SetActive(true);
+        mainMenu.SetActive(false);
     }
 
     public void HideLevels()
     {
-        levelPicker.SetActive(false);
+        levelMenu.SetActive(false);
+        mainMenu.SetActive(true);
     }
 }
