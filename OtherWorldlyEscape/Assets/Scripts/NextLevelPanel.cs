@@ -12,4 +12,10 @@ public class NextLevelPanel : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
  
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+            LoadLevel();
+    }
 }
