@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 104
+  controlID: 44
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 451
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 505
     height: 560
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 94
+  controlID: 102
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 95
+  controlID: 103
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\21582023\Documents\GitHub\Other_Worldly_Escape\OtherWorldlyEscape
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c910000
-    m_LastClickedID: 37180
-    m_ExpandedIDs: 000000003091000000ca9a3bffffff7f
+    m_SelectedIDs: aa5f0000
+    m_LastClickedID: 24490
+    m_ExpandedIDs: 00000000a05f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000a05f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b4910000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f8b9fcff50c2fcff5cc5fcff64c8fcffdccafcff2acdfcff2ccdfcff8cd2fcff6ed4fcffdad9fcff42dcfcffb2ddfcff3ae0fcffdce4fcff38e9fcff3ae9fcffe6ecfcfff0f0fcff28f3fcff7cf4fcff00f6fcff7af8fcffd6fdfcff7407fdffb809fdff7a67fdff3c9efdffa0e0feffd0e1feff06e3feff0c58ffff5459ffff1ab7ffff12b8ffff0ab9fffff6b9ffffe2bbffffdabcffffd2bdffffcabeffffdabfffffd2c5ffff9cc6ffffccc7ffff38920000fa93000040ad00006aad000080ce0000b4190100be190100301c0100e4690100ee6a010018780100c6800100ac8a0100088c0100a6980100
+      m_ExpandedIDs: 04f9ffffb2f9ffffeefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.7749996, y: 1.45, z: -0.48}
+    m_Target: {x: -7.774989, y: 1.45, z: -0.47993773}
     speed: 2
-    m_Value: {x: -7.7749996, y: 1.45, z: -0.48}
+    m_Value: {x: -7.774989, y: 1.45, z: -0.47993773}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.05449208, y: -0.9239945, z: 0.14268197, w: 0.35096353}
+    m_Target: {x: 0.0729461, y: -0.9217584, z: 0.31753063, w: 0.210921}
     speed: 2
-    m_Value: {x: 0.05448476, y: -0.9238704, z: 0.14266281, w: 0.3509164}
+    m_Value: {x: 0.07293615, y: -0.9216326, z: 0.3174873, w: 0.21089222}
   m_Size:
-    m_Target: 21.209175
+    m_Target: 26.840805
     speed: 2
-    m_Value: 21.209175
+    m_Value: 25.68498
   m_Ortho:
     m_Target: 0
     speed: 2
