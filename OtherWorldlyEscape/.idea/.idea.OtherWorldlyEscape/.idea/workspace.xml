@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NextLevelPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PopUpNotification.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -77,6 +78,7 @@
       <workItem from="1680624831251" duration="4714000" />
       <workItem from="1682437354453" duration="3831000" />
       <workItem from="1682698203711" duration="740000" />
+      <workItem from="1683038829678" duration="6227000" />
     </task>
     <servers />
   </component>

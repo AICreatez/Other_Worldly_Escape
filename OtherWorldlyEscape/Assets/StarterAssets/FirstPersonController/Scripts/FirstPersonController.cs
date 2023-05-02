@@ -63,6 +63,7 @@ namespace StarterAssets
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
+		private PauseManager _pauseManager;
 
 	
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
@@ -97,6 +98,7 @@ namespace StarterAssets
 
 		private void Start()
 		{
+			_pauseManager = GameObject.Find("GameManager").GetComponent<PauseManager>();
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
@@ -112,6 +114,9 @@ namespace StarterAssets
 
 		private void Update()
 		{
+			if (_pauseManager.IsGamePaused())
+				return;
+			
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
@@ -119,6 +124,9 @@ namespace StarterAssets
 
 		private void LateUpdate()
 		{
+			if (_pauseManager.IsGamePaused())
+				return;
+			
 			CameraRotation();
 		}
 
