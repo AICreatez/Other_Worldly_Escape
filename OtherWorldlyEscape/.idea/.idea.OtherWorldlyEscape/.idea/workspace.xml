@@ -37,6 +37,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop\OtherWorldlyEscape.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\21582023\Desktop" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity 2021.2.12f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\21582023\Documents\GitHub\Other_Worldly_Escape\OtherWorldlyEscape -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -79,7 +87,7 @@
       <workItem from="1682437354453" duration="3831000" />
       <workItem from="1682698203711" duration="740000" />
       <workItem from="1683038829678" duration="6227000" />
-      <workItem from="1683208703512" duration="2424000" />
+      <workItem from="1683208703512" duration="4452000" />
     </task>
     <servers />
   </component>
